@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html>
-    <script>test.js</script>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Converter</title>
+        <script src="converter.js"></script>
+    </head>
     <body>
-
-        <h2>Welcome to this page</h2>
-
-        <p id="p1">Hello!</p>
-
-        <button type="button" onclick='changeContent()'>Click Me!</button>
-
+        <p>
+        <label for="meters">Meters:</label>
+        <input type="text" id="meters">
+        </p><p>
+        <label for="feet">Feet:</label>
+        <input type="text" id="feet" readonly>
+        </p><p>
+        <button id="convert">Convert</button>
+        </p>
     </body>
 </html>
-
